@@ -11,8 +11,8 @@ function Footer() {
     <>
 
       <div className='flex bg-[#353A4A] flex-col'>
-      <div id='footer' className=' flex justify-around w-full h-[40vh]'>
-        <div id='rightFoot' className='h-full w-[30%]  flex flex-col items-center justify-center'>
+      <div id='footer' className=' flex  md:flex-row flex-col h-[80vh] justify-around w-full md:h-[40vh]'>
+        <div id='rightFoot' className='md:h-full  md:w-[30%]  h-[30%] w-full flex flex-col items-center justify-center'>
             
               <h1 className='text-white text-2xl font-serif font-semibold '>Governmet</h1>
         <h1 className='text-white  text-3xl font-semibold  font-serif'> GRADUATE COLLEGE</h1>
@@ -20,7 +20,7 @@ function Footer() {
             
         </div>
 
-        <div id='LeftFoot' className='flex text-white  px-4 flex-col justify-start pt-4'>
+        <div id='LeftFoot' className='md:h-full  md:w-[30%]  h-[30%] w-full  flex text-white  px-4 flex-col justify-start pt-4'>
         <h1 className='font-bold text-xl mb-4 underline'>Social</h1>
           
           <li className='flex items-center'>  <FaFacebook className='mr-2 cursor-pointer' /><a href="#"  className='hover:text-slate-400 fon'> Facebook</a>
@@ -30,7 +30,7 @@ function Footer() {
 
         </div>
 
-        <div id='centerFoot' className='flex text-white  px-4 flex-col justify-start pt-4 '>
+        <div id='centerFoot' className='md:h-full  md:w-[30%]  h-[30%] w-full  flex text-white  px-4 flex-col justify-start pt-4 '>
             <h1 className='font-bold text-xl mb-4 underline'>Contact</h1>
           
           <li className='flex'>  <IoMdCall className='mr-2' /><a href="#"  className='hover:text-slate-400 fon'> 0546 504504</a>
@@ -40,7 +40,7 @@ function Footer() {
             
         </div>
 
-        <div className='flex text-white  px-4 flex-col justify-start pt-4 '>
+        <div className='md:h-full  md:w-[30%]  h-[30%] w-full  flex text-white  px-4 flex-col justify-start pt-4 '>
         <h1 className='font-bold text-xl mb-4 underline'>Location</h1>
         <li className='flex items-center'><FaLocationDot className='mr-2 cursor-pointer' /> <p className='text-wrap  w-32 '>Right in front of General Bus Stand, Mandi Bahauddin. </p></li>
         </div>

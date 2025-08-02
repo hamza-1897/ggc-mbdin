@@ -4,7 +4,7 @@ import React from 'react'
 function Card(props) {
   return (
     <>
-      <div  className='flex cursor-pointer hover:scale-105 transition hover:shadow-lg hover:shadow-green-700 flex-col w-44 border overflow-hidden  border-green-800 rounded-lg'>
+      <div  className='flex cursor-pointer hover:scale-105 mt-2 transition hover:shadow-lg hover:shadow-green-700 flex-col w-44 border overflow-hidden  border-green-800 rounded-lg'>
         <div className='w-full h-[40%]'>
         <img src={props.image} alt="image" className='h-full w-full' />
 
