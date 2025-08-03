@@ -1,12 +1,14 @@
-Govt. Graduate College Official Website
+# Govt. Graduate College Official Website
 
 This repository contains the source code for the official website of Govt. Graduate College M.B.DIN, built using the React framework.
 The website is designed to provide comprehensive and up-to-date information about the college to students, faculty, and the public.
 
-Project Description
+## Project Description
+
 The purpose of this website is to represent the college's identity and professional services in the digital world. The site features a responsive design to ensure an optimal viewing experience on mobile, tablet, and desktop screens.
 
-Key Features
+## Key Features
+
 Homepage: A beautiful introduction to the college, including key images and the latest news.
 
 About Us: Detailed information on the college's history, mission, and vision.
@@ -19,7 +21,8 @@ Contact Us: Complete contact information and a form for inquiries.
 
 Responsive UI: A responsive design for an excellent user experience on all devices.
 
-Technologies Used
+## Technologies Used
+
 This project utilizes modern web development technologies:
 
 React: Frontend library.
@@ -32,7 +35,8 @@ Vite: A fast development server and build tool.
 
 Tailwind CSS: A utility-first CSS framework for easy and rapid styling.
 
-Getting Started
+## Getting Started
+
 To get this project up and running on your local machine, follow these simple steps:
 
 Clone the Repository:
