@@ -10,7 +10,7 @@ import home5 from '../ColgPics/home6.jpg'
 function Gallery() {
   return (
     <>
-      <div className='flex flex-col w-full  my-3 p-2'>
+      <div className='flex flex-col w-full my-10 md:my-3 p-2'>
         <div> 
             <h1 className='text-center my-3 text-orange-700 text-3xl font-serif underline font-bold'>Gallery</h1>
         </div>

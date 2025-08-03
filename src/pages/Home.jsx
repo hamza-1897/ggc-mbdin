@@ -13,11 +13,14 @@ function Home() {
       <div className='z-10'>
       <img src={main} alt="" />
       </div>
-      <Principle />
+     
+ <Principle />
       <Gallery/>
       <Choose/>
       <Events/>
-    </ div>
+      </div>
+     
+    
   )
 }
 

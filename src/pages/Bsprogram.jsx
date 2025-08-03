@@ -14,10 +14,10 @@ function Bsprogram() {
   return (
     <>
         <div className='mb-4 mt-8'>  
-            <h1 className=' text-center text-orange-700 text-3xl font-serif  font-bold'>Bs Programs (MORNING)</h1>
+            <h1 className=' text-center text-orange-700 text-xl md:text-3xl font-serif  font-bold'>Bs Programs (MORNING)</h1>
         </div>
 
-        <div className='grid grid-cols-5 pl-7'>
+        <div className='grid grid-cols-2 md:grid-cols-3  lg:grid-cols-5 pl-7'>
         <ProgramCard name="BS IT" image={bsit}/>
         <ProgramCard name="BS PHYSICS" image={bsphysics}/>
         <ProgramCard name="BS CHEMISTRY" image={bschemist}/>
@@ -30,9 +30,9 @@ function Bsprogram() {
         <ProgramCard name="BS ENGLISH" image={bsenglish}/>
         </div>
         <div className='mb-4 mt-10'>  
-            <h1 className=' text-center text-orange-700 text-3xl font-serif  font-bold'>Bs Programs (EVENING)</h1>
+            <h1 className=' text-center text-orange-700 text-xl md:text-3xl font-serif  font-bold'>Bs Programs (EVENING)</h1>
         </div>
-<div className='grid mb-5 grid-cols-5 pl-7'>
+<div className='grid mb-5 md:grid-cols-3 grid-cols-2 lg:grid-cols-5 pl-7'>
 <ProgramCard name="BS IT" image={bsit}/>
 <ProgramCard name="BS CHEMISTRY" image={bschemist}/>
 
