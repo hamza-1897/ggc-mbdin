@@ -15,7 +15,6 @@ function Home() {
       </div>
      
  <Principle />
-      <Gallery/>
       <Choose/>
       <Events/>
       </div>
