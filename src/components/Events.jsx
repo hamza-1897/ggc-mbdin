@@ -20,6 +20,10 @@ function Events() {
                   <h1 className='text-center text-orange-700 text-3xl font-serif my-4 font-bold'>News & Events</h1>
               </div>
               <div class="p-4">
+
+
+
+                
         <div class="columns-2 md:columns-3 lg:columns-4  gap-4">
         <div class="mb-4">
             <img src={sport} alt="Image 3" class="w-full hover:scale-125 transition-all duration-100 cursor-pointer rounded-lg" />

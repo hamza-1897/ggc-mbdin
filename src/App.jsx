@@ -8,6 +8,7 @@ import logo from '../src/ColgPics/logo.jpg'
 import Faculty from "./pages/Faculty";
 import Bsprogram from "./pages/Bsprogram";
 import Contact from "./pages/Contact";
+import Gallery from "./pages/Gallery";
 
 const rout = createBrowserRouter(
   [
@@ -35,6 +36,16 @@ const rout = createBrowserRouter(
          <Footer/>
       </div> 
     },
+ {
+      path:'/gallery',
+      element: <div>
+         <Header/>
+         <Gallery/>
+         <Footer/>
+      </div> 
+    },
+
+
     {
       path:'/contact',
       element:<div>

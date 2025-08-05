@@ -6,7 +6,7 @@ const Contact = () => {
     <div>
        <div id='contact' className='flex   flex-col w-full md:h-[90vh] h-[75vh] '>
             <div className='flex justify-center items-center w-full md:h-[10%]'>
-              <h1 className='md:text-3xl  text-2xl text-slate-900 font-bold'> Get In Touch</h1>
+              <h1 className='md:text-3xl  text-2xl text-orange-700 font-bold'> Get In Touch</h1>
             </div>
             <div className=' flex justify-center items-center w-full h-[80%]'>
                   <div className='md:w-[60%] w-[75%] rounded-lg flex bg-slate-400 flex-col gap-3.5 items-center shadow-[5px_5px_10px_rgba(0,0,0,0.3),_-5px_-5px_15px_rgba(255,255,255,0.3)] h-[80%] md:h-[75%]'>

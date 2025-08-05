@@ -42,7 +42,7 @@ const [isOpen, setIsOpen] = useState(false);
             <li className='hover:text-slate-300'><Link to="/" >Home</Link></li>
             <li className='hover:text-slate-300'><Link to="/faculty">Faculty</Link></li>
             <li className='hover:text-slate-300'><Link to="/bsprograms">Bs Programs</Link></li>
-            <li className='hover:text-slate-300'><Link to="/intermediate">Intermediate</Link></li>
+            <li className='hover:text-slate-300'><Link to="/gallery">Gallery</Link></li>
             <li className='hover:text-slate-300'><Link to="/contact">Contact Us</Link></li>
 
           </ul>
@@ -56,7 +56,7 @@ const [isOpen, setIsOpen] = useState(false);
           <li onClick={toggleMenu} className="block py-2 border-b"><Link to="/" >Home</Link></li>
                     <li onClick={toggleMenu} className="block py-2 border-b"><Link to="/bsprograms">Bs Programs</Link></li>
           <li onClick={toggleMenu} className="block py-2 border-b"><Link to="/faculty">Faculty</Link></li>
-          <li onClick={toggleMenu} className="block py-2 border-b"><Link to="/intermediate">Intermediate</Link></li>
+          <li onClick={toggleMenu} className="block py-2 border-b"><Link to="/gallery">Gallery</Link></li>
           <li onClick={toggleMenu} className="block py-2 border-b"><Link to="/contact">Contact Us</Link></li>
         </div>
       )}
