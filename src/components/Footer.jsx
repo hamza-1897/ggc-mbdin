@@ -2,6 +2,8 @@ import React from 'react'
 
 import { IoMdMail } from "react-icons/io";
 import { FaFacebook } from "react-icons/fa";
+import { NavLink , Link} from 'react-router-dom'
+
 import { IoMdCall } from "react-icons/io";
 import { FaYoutube } from "react-icons/fa";
 import { FaInstagram } from "react-icons/fa6";
@@ -15,7 +17,7 @@ function Footer() {
         <div id='rightFoot' className='md:h-full  md:w-[30%]  h-[30%] w-full flex flex-col items-center justify-center'>
             
               <h1 className='text-white text-2xl font-serif font-semibold '>Governmet</h1>
-        <h1 className='text-white  text-3xl font-semibold  font-serif'> GRADUATE COLLEGE</h1>
+        <h1 className='text-white  text-2xl font-semibold  font-serif'> GRADUATE COLLEGE</h1>
         <h1 className='text-white font-semibold '>Mandi Bahauddin</h1>
             
         </div>
@@ -37,6 +39,19 @@ function Footer() {
           </li>
           <li className='flex items-center'><IoMdMail className='mr-2 cursor-pointer' /> <a href="#" className='hover:text-slate-400'>ggcmbdin@gmail.com</a></li>
            
+            
+        </div>
+
+        <div id='centerFoot' className='md:h-full  md:w-[30%]  h-[30%] w-full  flex text-white  px-4 flex-col justify-start pt-4 '>
+            <h1 className='font-bold text-xl mb-4 underline'>Quik links</h1>
+          
+          <li className='hover:underline'><Link to="/" >Home</Link></li>
+            <li className='hover:underline'><Link to="/faculty">Faculty</Link></li>
+            <li className='hover:underline'><Link to="/bsprograms">Bs Programs</Link></li>
+            <li className='hover:underline'><Link to="/gallery">Gallery</Link></li>
+            <li className='hover:underline'><Link to="/contact">Contact Us</Link></li>
+
+
             
         </div>
 

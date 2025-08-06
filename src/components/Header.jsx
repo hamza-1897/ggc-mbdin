@@ -5,6 +5,8 @@ import { IoMdCall } from "react-icons/io";
 import { NavLink , Link} from 'react-router-dom'
 import { useState } from 'react';
 import { RxCross2 } from "react-icons/rx";
+import {motion} from 'framer-motion';
+
 import { FaBars } from "react-icons/fa";
 
 function Header() {
@@ -16,7 +18,21 @@ const [isOpen, setIsOpen] = useState(false);
 
   return (
     <>
-      <div id='header' className='bg-white  w-full h-[25vh] md:h-28'>
+      <motion.div 
+       initial={{ opacity: 0, y: -100 }} 
+       animate = {{ opacity:1, y: 0}}
+
+       transition={{ 
+        duration: 1, 
+        ease: "easeOut" 
+      }}
+      
+      viewport={{ 
+        once: true, 
+        amount: 0.2
+      }}
+
+      id='header' className='bg-white  w-full h-[25vh] md:h-28'>
         <div id='upperHeader' className='w-full h-[80%] md:h-[75%] flex md:flex-row flex-col-reverse md:justify-start justify-center items-center '>
            <div className='flex justify-center  gap-4 py-2 items-center  md:gap-2 overflow-hidden md:h-full h-60% w-full md:w-[60%]'>
             <div id='logo' className='h-full flex items-center justify-center ml-4 w-[30%] md:w-[10%]'>
@@ -67,7 +83,7 @@ const [isOpen, setIsOpen] = useState(false);
 
 
 
-      </div>
+      </motion.div>
     </>
     
   )

@@ -23,6 +23,7 @@ import home5 from '../ColgPics/home6.jpg'
 const Photos = () => {
 
      const pics = [
+     { id: 'a16', src: home2 },
     { id: 'a1', src: activity },
     { id: 'a2', src: activity1 },
     { id: 'a3', src: activity2 },
@@ -34,6 +35,12 @@ const Photos = () => {
     { id: 'a9', src: mela1 },
     { id: 'a10', src: mela2 },
     { id: 'a11', src: mela3 },
+
+    { id: 'a12', src: home },
+    { id: 'a13', src: home0 },
+    { id: 'a15', src: home1 },
+    { id: 'a17', src: home3 },
+    { id: 'a18', src: home5 },
 
 
 
