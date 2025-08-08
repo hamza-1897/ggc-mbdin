@@ -4,6 +4,15 @@ import urdu from '../ColgPics/principl.jpg'
 import islamiyat from '../ColgPics/saifShb.jpg'
 import pakStudy from '../ColgPics/saqibShb.jpg'
 function Faculty() {
+
+const prof = [
+  {id:'1',name:'Prof. Inayat Ullah',depart:'Urdu' , pic: urdu},
+  {id:'2',name:'Prof. Saif Ullah ' ,depart:"Islamiyat", pic: islamiyat},
+  {id:'3',name:'Prof. Saqib' , depart :"Pak Studies",pic: pakStudy},
+
+]
+
+
   return (
     <>
       <div className='flex flex-col my-4'>
@@ -11,9 +20,14 @@ function Faculty() {
             <h1 className='text-center text-green-700 text-xl md:text-3xl font-serif  font-bold'>Heads Of Departments</h1>
         </div>
 <div className=' py-3 px-5 columns-2 md:columns-3 lg:columns-4 gap-8 md:gap-3'>
-<Card   name="Prof. Inayat Ullah shb" depart="Urdu" image={urdu}/>
-<Card  name="Prof. Saif Ullah shb" depart="Islamiyat" image={islamiyat}/>
-<Card  name="Prof. Saqib shb" depart="Pak Studies" image={pakStudy}/>
+
+{
+  prof.map( val => (
+    <Card  key={val.id}  name={val.name} depart={val.depart} image={val.pic}/>
+
+  ))
+}
+
 
 
 </div>
